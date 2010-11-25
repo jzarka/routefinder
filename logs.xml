@@ -1,0 +1,411 @@
+Geokit is using the domain: ubuntu
+Google geocoding. Address: Coords                      . Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>Coords                      </name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>Cordes, IL 62263, USA</address>
+    <AddressDetails Accuracy="4" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>IL</AdministrativeAreaName><SubAdministrativeArea><SubAdministrativeAreaName>Washington</SubAdministrativeAreaName><Locality><LocalityName>Cordes</LocalityName></Locality></SubAdministrativeArea></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="38.3048665" south="38.2873525" east="-89.4412126" west="-89.4732274" />
+    </ExtendedData>
+    <Point><coordinates>-89.4572200,38.2961100,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p2">
+    <address>Cordes, AZ 86333, USA</address>
+    <AddressDetails Accuracy="4" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>AZ</AdministrativeAreaName><SubAdministrativeArea><SubAdministrativeAreaName>Yavapai</SubAdministrativeAreaName><Locality><LocalityName>Cordes</LocalityName></Locality></SubAdministrativeArea></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="34.3106576" south="34.3043624" east="-112.1561544" west="-112.1624496" />
+    </ExtendedData>
+    <Point><coordinates>-112.1593020,34.3075100,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p3">
+    <address>Cordes Airport, Mayer, AZ 86333, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>AZ</AdministrativeAreaName><SubAdministrativeArea><SubAdministrativeAreaName>Yavapai</SubAdministrativeAreaName><Locality><LocalityName>Mayer</LocalityName><Thoroughfare><ThoroughfareName>Cordes Airport</ThoroughfareName></Thoroughfare><PostalCode><PostalCodeNumber>86333</PostalCodeNumber></PostalCode><AddressLine>Cordes Airport</AddressLine></Locality></SubAdministrativeArea></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="34.3087326" south="34.3024374" east="-112.1614565" west="-112.1677517" />
+    </ExtendedData>
+    <Point><coordinates>-112.1646041,34.3055850,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p4">
+    <address>7910 Cordes, Belgium</address>
+    <AddressDetails Accuracy="4" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>BE</CountryNameCode><CountryName>Belgique</CountryName><AdministrativeArea><AdministrativeAreaName>Région Wallonne</AdministrativeAreaName><SubAdministrativeArea><SubAdministrativeAreaName>Hainaut</SubAdministrativeAreaName><Locality><LocalityName>Cordes</LocalityName></Locality></SubAdministrativeArea></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="50.6914076" south="50.6851124" east="3.5359476" west="3.5296524" />
+    </ExtendedData>
+    <Point><coordinates>3.5328000,50.6882600,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p5">
+    <address>81170 Cordes-sur-Ciel, France</address>
+    <AddressDetails Accuracy="4" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>FR</CountryNameCode><CountryName>France</CountryName><AdministrativeArea><AdministrativeAreaName>Midi-Pyrénées</AdministrativeAreaName><SubAdministrativeArea><SubAdministrativeAreaName>Tarn</SubAdministrativeAreaName><Locality><LocalityName>Cordes-sur-Ciel</LocalityName></Locality></SubAdministrativeArea></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="44.0914707" south="44.0461573" east="1.9855833" west="1.9375733" />
+    </ExtendedData>
+    <Point><coordinates>1.9582024,44.0625283,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+Google geocoding. Address: N55?44'25.16" 009°09'06.40". Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>N55?44&apos;25.16&quot; 009°09&apos;06.40&quot;</name>
+  <Status>
+    <code>400</code>
+    <request>geocode</request>
+  </Status>
+</Response></kml>
+Google was unable to geocode address: N55?44'25.16" 009°09'06.40"
+Google geocoding. Address: N55°36'11.33 E008°17'59.86. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>N55°36&apos;11.33 E008°17&apos;59.86</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>6852 Billum, Denmark</address>
+    <AddressDetails Accuracy="5" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>DK</CountryNameCode><CountryName>Danmark</CountryName><AdministrativeArea><AdministrativeAreaName>Syddanmark</AdministrativeAreaName><SubAdministrativeArea><SubAdministrativeAreaName>Varde</SubAdministrativeAreaName><Locality><LocalityName>Billum</LocalityName><PostalCode><PostalCodeNumber>6852</PostalCodeNumber></PostalCode></Locality></SubAdministrativeArea></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="55.6526661" south="55.5821095" east="8.3699209" west="8.2732188" />
+    </ExtendedData>
+    <Point><coordinates>8.3292708,55.6142626,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p2">
+    <address>6852 Billum, Denmark</address>
+    <AddressDetails Accuracy="4" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>DK</CountryNameCode><CountryName>Danmark</CountryName><AdministrativeArea><AdministrativeAreaName>Syddanmark</AdministrativeAreaName><SubAdministrativeArea><SubAdministrativeAreaName>Varde</SubAdministrativeAreaName><Locality><LocalityName>Billum</LocalityName></Locality></SubAdministrativeArea></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="55.6526661" south="55.5821095" east="8.3699209" west="8.2732188" />
+    </ExtendedData>
+    <Point><coordinates>8.3311190,55.6157000,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p3">
+    <address>Billum, 6852 Billum, Denmark</address>
+    <AddressDetails Accuracy="4" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>DK</CountryNameCode><CountryName>Danmark</CountryName><AdministrativeArea><AdministrativeAreaName>Syddanmark</AdministrativeAreaName><SubAdministrativeArea><SubAdministrativeAreaName>Varde</SubAdministrativeAreaName><Locality><LocalityName>Billum</LocalityName><AddressLine>Billum</AddressLine></Locality></SubAdministrativeArea></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="55.6526661" south="55.5821095" east="8.3699209" west="8.2732188" />
+    </ExtendedData>
+    <Point><coordinates>8.3292708,55.6142626,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p4">
+    <address>Varde Municipality, Denmark</address>
+    <AddressDetails Accuracy="3" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>DK</CountryNameCode><CountryName>Danmark</CountryName><AdministrativeArea><AdministrativeAreaName>Syddanmark</AdministrativeAreaName><SubAdministrativeArea><SubAdministrativeAreaName>Varde</SubAdministrativeAreaName></SubAdministrativeArea></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="55.8498610" south="55.4767900" east="8.9148450" west="8.0725590" />
+    </ExtendedData>
+    <Point><coordinates>8.5169700,55.6851792,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p5">
+    <address>Syddanmark, Denmark</address>
+    <AddressDetails Accuracy="2" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>DK</CountryNameCode><CountryName>Danmark</CountryName><AdministrativeArea><AdministrativeAreaName>Syddanmark</AdministrativeAreaName></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="55.9566330" south="54.7218370" east="10.9557690" west="8.0725590" />
+    </ExtendedData>
+    <Point><coordinates>9.0924903,55.3307714,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p6">
+    <address>Denmark</address>
+    <AddressDetails Accuracy="1" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>DK</CountryNameCode><CountryName>Danmark</CountryName></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="58.0284600" south="54.4317000" east="13.1671100" west="7.8552000" />
+    </ExtendedData>
+    <Point><coordinates>9.5017850,56.2639200,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p7">
+    <address>North Sea</address>
+    <AddressDetails Accuracy="0" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><AddressLine>North Sea</AddressLine></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="61.0000001" south="50.8336666" east="10.7446666" west="-4.2267600" />
+    </ExtendedData>
+    <Point><coordinates>3.5156250,56.5110180,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p8">
+    <address>Scandinavia</address>
+    <AddressDetails Accuracy="3" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><AddressLine>Scandinavia</AddressLine></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="71.3078000" south="54.4317000" east="31.5871000" west="4.0649000" />
+    </ExtendedData>
+    <Point><coordinates>12.3401708,62.2786475,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p9">
+    <address>Europe</address>
+    <AddressDetails Accuracy="0" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><AddressLine>Europe</AddressLine></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="82.7021697" south="33.8978000" east="74.1357000" west="-28.0371000" />
+    </ExtendedData>
+    <Point><coordinates>15.2551187,54.5259614,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+Google geocoding. Address: N55°27'00.00 E005°17'00.00. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>N55°27&apos;00.00 E005°17&apos;00.00</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>North Sea</address>
+    <AddressDetails Accuracy="0" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><AddressLine>North Sea</AddressLine></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="59.5343186" south="53.2257689" east="11.7114260" west="-4.6801760" />
+    </ExtendedData>
+    <Point><coordinates>3.5156250,56.5110180,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p2">
+    <address>Europe</address>
+    <AddressDetails Accuracy="0" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><AddressLine>Europe</AddressLine></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="82.7021697" south="33.8978000" east="74.1357000" west="-28.0371000" />
+    </ExtendedData>
+    <Point><coordinates>15.2551187,54.5259614,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+Google geocoding. Address: N55°23'08.00 E005°00'00.00. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>N55°23&apos;08.00 E005°00&apos;00.00</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>North Sea</address>
+    <AddressDetails Accuracy="0" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><AddressLine>North Sea</AddressLine></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="59.5343186" south="53.2257689" east="11.7114260" west="-4.6801760" />
+    </ExtendedData>
+    <Point><coordinates>3.5156250,56.5110180,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+Google geocoding. Address: N55°18'18.00 E004°39'05.00. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>N55°18&apos;18.00 E004°39&apos;05.00</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>North Sea</address>
+    <AddressDetails Accuracy="0" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><AddressLine>North Sea</AddressLine></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="59.5343186" south="53.2257689" east="11.7114260" west="-4.6801760" />
+    </ExtendedData>
+    <Point><coordinates>3.5156250,56.5110180,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+Google geocoding. Address: N55°08'17.00 E003°56'43.00. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>N55°08&apos;17.00 E003°56&apos;43.00</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>North Sea</address>
+    <AddressDetails Accuracy="0" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><AddressLine>North Sea</AddressLine></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="59.5343186" south="53.2257689" east="11.7114260" west="-4.6801760" />
+    </ExtendedData>
+    <Point><coordinates>3.5156250,56.5110180,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p2">
+    <address>Europe</address>
+    <AddressDetails Accuracy="0" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><AddressLine>Europe</AddressLine></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="82.7021697" south="33.8978000" east="74.1357000" west="-28.0371000" />
+    </ExtendedData>
+    <Point><coordinates>15.2551187,54.5259614,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+Google geocoding. Address: N54°57'47.00 E003°13'50.00. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>N54°57&apos;47.00 E003°13&apos;50.00</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>North Sea</address>
+    <AddressDetails Accuracy="0" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><AddressLine>North Sea</AddressLine></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="59.5343186" south="53.2257689" east="11.7114260" west="-4.6801760" />
+    </ExtendedData>
+    <Point><coordinates>3.5156250,56.5110180,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p2">
+    <address>Europe</address>
+    <AddressDetails Accuracy="0" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><AddressLine>Europe</AddressLine></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="82.7021697" south="33.8978000" east="74.1357000" west="-28.0371000" />
+    </ExtendedData>
+    <Point><coordinates>15.2551187,54.5259614,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+Google geocoding. Address: N54°54'18.00 E002°29'32.00. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>N54°54&apos;18.00 E002°29&apos;32.00</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>North Sea</address>
+    <AddressDetails Accuracy="0" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><AddressLine>North Sea</AddressLine></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="59.5343186" south="53.2257689" east="11.7114260" west="-4.6801760" />
+    </ExtendedData>
+    <Point><coordinates>3.5156250,56.5110180,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p2">
+    <address>Europe</address>
+    <AddressDetails Accuracy="0" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><AddressLine>Europe</AddressLine></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="82.7021697" south="33.8978000" east="74.1357000" west="-28.0371000" />
+    </ExtendedData>
+    <Point><coordinates>15.2551187,54.5259614,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+Google geocoding. Address: N53°53'13.00 E000°39'01.00. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>N53°53&apos;13.00 E000°39&apos;01.00</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>North Sea</address>
+    <AddressDetails Accuracy="0" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><AddressLine>North Sea</AddressLine></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="59.5343186" south="53.2257689" east="11.7114260" west="-4.6801760" />
+    </ExtendedData>
+    <Point><coordinates>3.5156250,56.5110180,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p2">
+    <address>Europe</address>
+    <AddressDetails Accuracy="0" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><AddressLine>Europe</AddressLine></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="82.7021697" south="33.8978000" east="74.1357000" west="-28.0371000" />
+    </ExtendedData>
+    <Point><coordinates>15.2551187,54.5259614,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+Google geocoding. Address: N53°31'29.00 E000°05'36.00. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>N53°31&apos;29.00 E000°05&apos;36.00</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>North Sea</address>
+    <AddressDetails Accuracy="0" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><AddressLine>North Sea</AddressLine></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="59.5343186" south="53.2257689" east="11.7114260" west="-4.6801760" />
+    </ExtendedData>
+    <Point><coordinates>3.5156250,56.5110180,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p2">
+    <address>Europe</address>
+    <AddressDetails Accuracy="0" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><AddressLine>Europe</AddressLine></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="82.7021697" south="33.8978000" east="74.1357000" west="-28.0371000" />
+    </ExtendedData>
+    <Point><coordinates>15.2551187,54.5259614,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+Google geocoding. Address: N53°21'14.00 W002°16'30.00. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>N53°21&apos;14.00 W002°16&apos;30.00</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>Ringway, Greater Manchester M90 5, UK</address>
+    <AddressDetails Accuracy="5" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>GB</CountryNameCode><CountryName>UK</CountryName><AdministrativeArea><AdministrativeAreaName>Greater Manchester</AdministrativeAreaName><SubAdministrativeArea><SubAdministrativeAreaName>Manchester</SubAdministrativeAreaName><DependentLocality><DependentLocalityName>Ringway</DependentLocalityName><PostalCode><PostalCodeNumber>M90 5</PostalCodeNumber></PostalCode></DependentLocality></SubAdministrativeArea></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="53.3719890" south="53.3512866" east="-2.2727882" west="-2.2977784" />
+    </ExtendedData>
+    <Point><coordinates>-2.2827564,53.3620806,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p2">
+    <address>Ringway, Altrincham, Greater Manchester WA15, UK</address>
+    <AddressDetails Accuracy="5" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>GB</CountryNameCode><CountryName>UK</CountryName><Locality><LocalityName>Altrincham</LocalityName><DependentLocality><DependentLocalityName>Ringway</DependentLocalityName><PostalCode><PostalCodeNumber>WA15</PostalCodeNumber></PostalCode></DependentLocality></Locality></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="53.3757690" south="53.3401210" east="-2.2580420" west="-2.3137090" />
+    </ExtendedData>
+    <Point><coordinates>-2.2999242,53.3545392,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p3">
+    <address>Manchester Airport (MAN), Ringway, Greater Manchester M90 4, UK</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>GB</CountryNameCode><CountryName>UK</CountryName><AdministrativeArea><AdministrativeAreaName>Greater Manchester</AdministrativeAreaName><SubAdministrativeArea><SubAdministrativeAreaName>Manchester</SubAdministrativeAreaName><DependentLocality><DependentLocalityName>Ringway</DependentLocalityName><Thoroughfare><ThoroughfareName>Manchester Airport (MAN)</ThoroughfareName></Thoroughfare><PostalCode><PostalCodeNumber>M90 4</PostalCodeNumber></PostalCode><AddressLine>Manchester Airport</AddressLine></DependentLocality></SubAdministrativeArea></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="53.3715250" south="53.3310257" east="-2.2541760" west="-2.3125380" />
+    </ExtendedData>
+    <Point><coordinates>-2.2751865,53.3644200,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p4">
+    <address>Altrincham WA15, UK</address>
+    <AddressDetails Accuracy="5" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>GB</CountryNameCode><CountryName>UK</CountryName><Locality><LocalityName>Altrincham</LocalityName><PostalCode><PostalCodeNumber>WA15</PostalCodeNumber></PostalCode></Locality></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="53.4114906" south="53.3360086" east="-2.2537612" west="-2.3498756" />
+    </ExtendedData>
+    <Point><coordinates>-2.3018184,53.3737496,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p5">
+    <address>Greater Manchester, UK</address>
+    <AddressDetails Accuracy="3" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>GB</CountryNameCode><CountryName>UK</CountryName><AdministrativeArea><AdministrativeAreaName>Greater Manchester</AdministrativeAreaName></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="53.5446030" south="53.3401210" east="-2.1470260" west="-2.3199340" />
+    </ExtendedData>
+    <Point><coordinates>-2.2224473,53.4456021,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p6">
+    <address>Manchester, Greater Manchester, UK</address>
+    <AddressDetails Accuracy="4" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>GB</CountryNameCode><CountryName>UK</CountryName><AdministrativeArea><AdministrativeAreaName>Greater Manchester</AdministrativeAreaName><SubAdministrativeArea><SubAdministrativeAreaName>Manchester</SubAdministrativeAreaName></SubAdministrativeArea></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="53.5446030" south="53.3401210" east="-2.1470260" west="-2.3199340" />
+    </ExtendedData>
+    <Point><coordinates>-2.2224473,53.4456021,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p7">
+    <address>England, United Kingdom</address>
+    <AddressDetails Accuracy="2" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>GB</CountryNameCode><CountryName>UK</CountryName><AddressLine>England</AddressLine></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="55.8116485" south="49.8825312" east="1.7689260" west="-6.3651943" />
+    </ExtendedData>
+    <Point><coordinates>-0.7704274,52.0190289,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p8">
+    <address>United Kingdom</address>
+    <AddressDetails Accuracy="1" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>GB</CountryNameCode><CountryName>UK</CountryName></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="60.8616500" south="49.1626564" east="1.7689260" west="-8.6626630" />
+    </ExtendedData>
+    <Point><coordinates>-3.4359730,55.3780510,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p9">
+    <address>Northern Europe, United Kingdom</address>
+    <AddressDetails Accuracy="3" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><AddressLine>Northern Europe</AddressLine></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="60.8616500" south="49.1626564" east="1.7689260" west="-8.6626630" />
+    </ExtendedData>
+    <Point><coordinates>-0.7704274,52.0190289,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p10">
+    <address>Western Europe, United Kingdom</address>
+    <AddressDetails Accuracy="3" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><AddressLine>Western Europe</AddressLine></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="60.8616500" south="49.1626564" east="1.7689260" west="-8.6626630" />
+    </ExtendedData>
+    <Point><coordinates>-0.7704274,52.0190289,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p11">
+    <address>Europe</address>
+    <AddressDetails Accuracy="0" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><AddressLine>Europe</AddressLine></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="82.7021697" south="33.8978000" east="74.1357000" west="-28.0371000" />
+    </ExtendedData>
+    <Point><coordinates>15.2551187,54.5259614,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+DEPRECATION WARNING

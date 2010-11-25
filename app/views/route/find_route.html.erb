@@ -1,0 +1,12 @@
+Enter Data to display a route:
+<% form_tag :action => 'display_route' do %>
+<p>
+	ADEP: <%= text_field_tag 'ADEP' %>
+</p>
+<p>
+	ADES: <%= text_field_tag 'ADES' %>
+</p>
+	<%= submit_tag 'find' %>
+<% end %>
+
+Data provided by http://rfinder.asalink.net/free/
