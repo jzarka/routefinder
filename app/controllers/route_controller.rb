@@ -30,30 +30,29 @@ class RouteController < ApplicationController
     res = Net::HTTP.new(url.host, url.port).start {|http| http.request(req) }
     case res
       when Net::HTTPSuccess, Net::HTTPRedirection
-        puts 'request ok'
         html_doc = Nokogiri::HTML(res.body)
         html_doc.xpath('//pre').each do | pre | 
         pre.content.each {|s|
           if !s.starts_with? "ID"
             line = s
-            puts line
             latlong = line[29..40] + ' ' + line[44..56]
             point = []
             line[29..40].gsub(/(\d+).(\d+)'(\d+).[0-9][0-9]/) do
-            lat = ($1.to_f + $2.to_f/60 + $3.to_f/3600)
+            lat = (line[29..30].to_f + $2.to_f/60 + $3.to_f/3600)
+            if line[28] == 83 # E/Z
+              lat = -lat
+            end
             point << lat
-          end
-          line[44..56].gsub(/(\d+).(\d+)'(\d+).[0-9][0-9]/) do
+            line[43..56].gsub(/(\d+).(\d+)'(\d+).[0-9][0-9]/) do
             long = ($1.to_f + $2.to_f/60 + $3.to_f/3600)
-            puts line[43]
-            if line[43] == 87
+            if line[43] == 87 # E/Z
               long = -long
-              puts long
             end
             point << long
             point << line[0..10] + line[28..56]
           end
           points << point
+        end
         end
         }
         puts
