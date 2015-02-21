@@ -8,19 +8,27 @@
   <link rel="stylesheet" href="//code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
 
   <script>
+  function render_icao_airports( ul, item ) {
+	      return $( "<li>" )
+	        .append( "<b>" + item.label + " </b> / " + item.name + " <br/> "+ item.country + "</a>" )
+	        .appendTo( ul );
+	    };
   $(function() {
     $.getJSON('airports')
 		.done(
 			function (data) {
+				
 				var availableTags = data;
-				$( "#ADES" ).autocomplete({
+				console.log(data);
+				$( "#ADES").autocomplete({
 		      		source: availableTags
-		    	});
+		    	}).autocomplete( "instance" )._renderItem = render_icao_airports;
 		    	$( "#ADEP" ).autocomplete({
 		      		source: availableTags
-		    	});
+		    	}).autocomplete( "instance" )._renderItem = render_icao_airports;
 			});
 		});
+
   </script>
 </head>
 <body>

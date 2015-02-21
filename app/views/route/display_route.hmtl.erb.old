@@ -1,0 +1,6 @@
+<h1>Display route</h1>
+
+<%= raw(GMap.header) %>
+<%= javascript_include_tag "ym4r-gm" %>
+<%= raw(@map.to_html) =%>
+<%= raw(@map.div(:width => 600, :height => 400)) =%>

@@ -8,7 +8,6 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAG6qX0B0D-2ZCg11DxNKkYpegqlJm0Fcg">
    </script>
    <script type="text/javascript">
-
      function initialize() {
        var mapOptions = {
          center: new google.maps.LatLng(-34.397, 150.644),
@@ -16,8 +15,12 @@
        };
        var map = new google.maps.Map(document.getElementById("map-canvas"),
            mapOptions);
+		//map.data.loadGeoJson(<%= raw @sample_route_hash %>);
+		//	 map.data.loadGeoJson('https://storage.googleapis.com/maps-devrel/google.json');
+		map.data.loadGeoJson('http://localhost:3000/route/display_sample_route_data');
 
-     }
+
+	 }
      google.maps.event.addDomListener(window, 'load', initialize);
 
    </script>
